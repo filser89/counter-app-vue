@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -30,3 +26,15 @@
   }
 }
 </style>
+<script>
+import Counter from "@/components/Counter";
+
+export default {
+  // computed: {
+  //   layout() {
+  //     return (this.$route.meta.layout || "empty") + "-layout";
+  //   },
+  // },
+  components: {},
+};
+</script>
