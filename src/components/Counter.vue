@@ -1,6 +1,6 @@
 <template>
   <div class="counter">
-    <div class="counter-container">
+    <div class="counter-item">
       <h3>Counter</h3>
       <p>Current value: {{ counter }}</p>
       <button v-on:click="clicked">Add</button>
